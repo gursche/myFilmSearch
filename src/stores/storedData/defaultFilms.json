@@ -1,0 +1,76 @@
+{
+  "Search": [
+    {
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Year": "2002",
+      "imdbID": "tt8672174",
+      "Type": "game",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDBmNjVmYTEtOTU5OC00NDVlLWJlNTAtMTBjODk2NGI5M2EyXkEyXkFqcGdeQXVyOTcyOTc4Mjc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Making of 'Lord of Illusions'",
+      "Year": "1995",
+      "imdbID": "tt0369691",
+      "Type": "movie",
+      "Poster": "N/A"
+    },
+    {
+      "Title": "Dracula, Lord of the Damned",
+      "Year": "2011",
+      "imdbID": "tt2012586",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTAyNzg4NTQ0OV5BMl5BanBnXkFtZTgwNzU1NDgxNjE@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Lord of the Brush",
+      "Year": "2005",
+      "imdbID": "tt0772238",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZWJlM2RkZGItNzJjYS00MDQxLThjZTQtZjVjNzM0MjlhMDIxXkEyXkFqcGdeQXVyNzI4MDMyMTU@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Lord of the Dance/Destroyer of Illusion",
+      "Year": "1985",
+      "imdbID": "tt0163724",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzIxNTczMDY4NF5BMl5BanBnXkFtZTcwMjI2MzAzNA@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Lord of the Sky",
+      "Year": "1993",
+      "imdbID": "tt0236448",
+      "Type": "movie",
+      "Poster": "N/A"
+    },
+    {
+      "Title": "Lord of the Rings (By Spring)",
+      "Year": "2017",
+      "imdbID": "tt6482606",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTAxYzViYzUtZTU2My00MTUyLWJhMjAtYTE1NzMyMDc1MWRjXkEyXkFqcGdeQXVyNDc3Mzc3NTM@._V1_SX300.jpg"
+    },
+    {
+      "Title": "J.R.R. Tolkien and the Birth of Lord of the Rings",
+      "Year": "2004",
+      "imdbID": "tt11656828",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTg1ZDU3MmItODU1NS00MjgyLWI1ZjEtZGNkNDBjYjVhMzhiXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Lord of Losers",
+      "Year": "2022–2023",
+      "imdbID": "tt21148510",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjdlOWYzZGYtZDAxNS00Y2U5LWE4OGMtZmYwOGUwMDI3ZDFhXkEyXkFqcGdeQXVyNzQxMzk3OQ@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Lord of the City",
+      "Year": "1997",
+      "imdbID": "tt0119564",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmMyZDM5YjUtMTFjZi00MWMyLWEwZmItOTQ1N2JjZjIxOWQ5XkEyXkFqcGdeQXVyNzA4ODc3ODU@._V1_SX300.jpg"
+    }
+  ],
+  "totalResults": "271",
+  "Response": "True"
+}

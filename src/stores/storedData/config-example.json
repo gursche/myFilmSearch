@@ -1,0 +1,5 @@
+{
+  "OMDbApi": "http://www.omdbapi.com/?apikey=",
+  "OMDbApiAccessKey": "yourKey",
+  "OMDbApiSearchTypeList": ["", "movie", "series"]
+}

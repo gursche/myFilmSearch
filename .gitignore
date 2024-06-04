@@ -1,0 +1,11 @@
+.vscode
+cypress
+.prettierrc.json
+cypress.config.js
+src/stores/storedData/config.json
+src/components/__tests__
+.eslintrc.cjs
+node_modules
+jsconfig.json
+pnpm-lock.yaml
+dist

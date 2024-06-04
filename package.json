@@ -1,0 +1,43 @@
+{
+  "name": "myfilmsearch",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
+    "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "portal-vue": "3.0.0",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "cypress": "^13.10.0",
+    "eslint": "^9.2.0",
+    "eslint-plugin-cypress": "^3.2.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.3.0",
+    "start-server-and-test": "^2.0.3",
+    "vite": "^5.2.11",
+    "vite-plugin-vue-devtools": "^7.1.3",
+    "vitest": "^1.6.0"
+  }
+}
