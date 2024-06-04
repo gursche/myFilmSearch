@@ -2,12 +2,14 @@
 const passedData = defineProps({
   imdbID: String,
 });
-import { useFilmListStore } from "@/stores/filmList";
-const filmList = useFilmListStore();
-const my = filmList.getFilmByImdbID(passedData.imdbID);
+
 import myRateing from "@/components/rateing/rateCR.vue";
 import myFavorite from "@/components/rateing/favoritesCR.vue";
 import myInfo from "@/components/info/infoModal.vue";
+
+import { useFilmListStore } from "@/stores/filmList";
+const filmList = useFilmListStore();
+const my = filmList.getFilmByImdbID(passedData.imdbID);
 </script>
 
 <template>

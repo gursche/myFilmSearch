@@ -1,8 +1,12 @@
 <script setup>
+const actualRate = defineProps({ 
+  value: Number, 
+  imdbID: String });
+
 import { useFilmListStore } from "@/stores/filmList";
 const filmList = useFilmListStore();
-const actualRate = defineProps({ value: Number, imdbID: String });
 </script>
+
 <template>
   <div class="container-fluid p-0">
     <div

@@ -1,8 +1,12 @@
 <script setup>
+const actualFavorite = defineProps({ 
+  value: Boolean, 
+  imdbID: String });
+
 import { useFilmListStore } from "@/stores/filmList";
 const filmList = useFilmListStore();
-const actualFavorite = defineProps({ value: Boolean, imdbID: String });
 </script>
+
 <template>
   <div v-if="actualFavorite.value == false">
     <div @click="filmList.favoriteFilm(actualFavorite.imdbID, true)">

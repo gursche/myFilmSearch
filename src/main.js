@@ -7,12 +7,11 @@ import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import App from "./App.vue";
 
 import PortalVue from "portal-vue";
+
 // import router from './router'
 // router not needed for this project
 
 const app = createApp(App);
-
-app.config.globalProperties.console = console;
 
 app.use(createPinia().use(piniaPluginPersistedstate));
 // set Pinia active from beginning

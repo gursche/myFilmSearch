@@ -9,6 +9,7 @@ const open = ref(false);
 const message = ref();
 
 import { useFilmListStore } from "@/stores/filmList";
+
 const filmList = useFilmListStore();
 const my = filmList.getFilmByImdbID(passedData.imdbID);
 </script>
@@ -38,7 +39,7 @@ const my = filmList.getFilmByImdbID(passedData.imdbID);
         </div>
         <div class="d-flex row p-2">
           <div
-            class="justify-content-center text-center col-md-3   col-lg-3 col-sm-12 p-2"
+            class="justify-content-center text-center col-md-3  col-xl-2 col-sm-12 p-2"
           >
             <img
               class="img-fluid"
@@ -46,7 +47,7 @@ const my = filmList.getFilmByImdbID(passedData.imdbID);
               alt="filmposter missing"
             />
           </div>
-          <div class="col-md-9 col-lg-8  col-sm-12">
+          <div class="col-md-9 col-xk-10 col-sm-12">
             <div class="flex-row">
               <div class="col text-center">
                 <h2>{{ my.film.Title }}</h2>
