@@ -10,7 +10,6 @@
  */
 import { defineStore } from "pinia";
 import cfg from "@/stores/storedData/config.json";
-import DefaultFilms from "@/stores/storedData/defaultFilms.json";
 import filmInintStore from "@/stores/storedData/filmInintStore.json";
 
 import axios from "axios";
