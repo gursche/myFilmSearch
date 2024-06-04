@@ -3,7 +3,7 @@
  *
  *
  * @license The Unlicense, http://unlicense.org/
- * @version 0.1
+ * @version 1.1.1
  * @author  AG, https://github.com/gursche/
  * @updated 2024-05-30
  * @link    https://github.com/gursche/
@@ -116,13 +116,14 @@ export const useFilmListStore = defineStore("FilmListStore", {
         "&s=" +
         this.convertSearchTitleToString +
         sT;
-      //get gata
+      //get data
       console.log(fetchString);
       const getThis = axios
         .get(fetchString)
         .then((obj) => {
           obj.data["Search"].forEach((filmObj) => {
             console.log("add to filmlist", filmObj.imdbID);
+            //insert film
             this.insertFilm(filmObj);
           });
           this.errorMsg = "";
@@ -186,8 +187,10 @@ export const useFilmListStore = defineStore("FilmListStore", {
       }
     },
     updateFilm(imdbID) {
+      // find film by id
       const tFilm = this.filmList.find((obj) => obj.id == imdbID);
       console.log("update film", imdbID);
+      // get data 
       const fetchString =
         "/omdb/?apikey=" + cfg["OMDbApiAccessKey"] + "&i=" + imdbID;
       console.log(fetchString);
@@ -199,6 +202,7 @@ export const useFilmListStore = defineStore("FilmListStore", {
             } else if (key == "Title") {
             } else if (key == "Poster") {
             } else {
+              // update data
               tFilm.film[key] = obj.data[key];
             }
           });
@@ -208,4 +212,4 @@ export const useFilmListStore = defineStore("FilmListStore", {
         });
     },
   },
-});
+})
