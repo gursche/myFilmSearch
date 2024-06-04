@@ -7,6 +7,7 @@ User interface created in Vue 3 to search and show results from http://www.omdba
 > scope: training
 
 > autor: AG
+<a href'https://github.com/gursche/myFilmSearch'>github</>
 
 <img src="previewApp.jpg" align="center"/>
 
