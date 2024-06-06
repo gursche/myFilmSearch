@@ -29,7 +29,7 @@ You can use bash command for both steps as below.
 
 "OMDbApiAccessKey": "yourKey",
 replace yourKey with your Key
-thurder information http://www.omdbapi.com/
+you can get your http://www.omdbapi.com/
 
 for linux/mac:
 
@@ -41,7 +41,7 @@ nano src/stores/storedData/config.json
 for windows:
 
 ```sh
-rn src/stores/storedData/config-example.json src/stores/storedData/config.json
+rename src/stores/storedData/config-example.json src/stores/storedData/config.json
 edit src/stores/storedData/config.json
 ```
 
