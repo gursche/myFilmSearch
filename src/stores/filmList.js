@@ -194,7 +194,7 @@ export const useFilmListStore = defineStore("FilmListStore", {
       const fetchString =
         "/omdb/?apikey=" + cfg["OMDbApiAccessKey"] + "&i=" + imdbID;
       console.log(fetchString);
-      const getThis = axios
+      const getThis = async () => { await axios
         .get(fetchString)
         .then((obj) => {
           Object.keys(obj.data).forEach((key) => {
@@ -210,6 +210,6 @@ export const useFilmListStore = defineStore("FilmListStore", {
         .catch((e) => {
           console.log(e, "filmlistStore->updateFilm");
         });
-    },
+    }},
   },
 })
